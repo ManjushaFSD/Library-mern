@@ -42,14 +42,12 @@ const BooksView = () => {
                         <div className="card-body">
                           <h5 className="card-title">{item.bookTitle}</h5>
                           <p className="card-text">Author: {item.bookAuthor}</p>
-                          <a href="#" className="btn btn-primary">
+                          <button className="btn btn-primary">
                             Rs.{item.bookPrice}
-                          </a>
+                          </button>
                         </div>
                         <br/>
-       <div className="button btn btn-success" >Edit</div>
-       <br/>
-       <div className="button btn btn-danger" >Delete</div>
+     
                       </div>
                     </div>
                   );
